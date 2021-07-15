@@ -1,0 +1,19 @@
+{
+  "name": "lb02",
+  "version": "1.0.0",
+  "description": "LB02 Modul 307",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsmileP/307.git"
+  },
+  "author": "Ailyn Peter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsmileP/307/issues"
+  },
+  "homepage": "https://github.com/AsmileP/307#readme"
+}

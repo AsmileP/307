@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/input-form.css" />
+    <title>J-Kino</title>
+  </head>
+  <body>
+    <section>
+      <h1>J-Kino</h1>
+      <h2>Aktueller Film</h2>
+      <div class="mitte">
+        <img src="bilder/splatoon3.jpg" alt="">
+      </div>
+  <table>
+    <tr>
+      <th>Orginaltitel</th><td>Splatoon 3 - Chaos an die Macht</td>
+    </tr>
+    <tr>
+      <th>Startdatum</th><td>15.07.2021</td>
+    </tr>
+    <tr>
+      <th>Altersfreigabe</th><td>10+</td>
+    </tr>
+    <tr>
+      <th>Genre</th> <td>Komödie, Action, Animation</td>
+    </tr>
+    <tr>
+      <th>Regie</th><td>Nintendo</td>
+    </tr>
+    <tr>
+      <th>Filmlänge</th><td>122 Min.</td>
+    </tr>
+    <tr>
+      <th>Sprache</th><td>EN/DE</td>
+    </tr>
+      </table>
+      <div class="mitte">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GUYDXVDLmns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    </section>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Bitte registrieren für das Kaufen einer Kinokarte</h2>
+        <div class="form-control">
+          <label for="username">Nutzername</label>
+          <input type="text" id="username" placeholder="Nutzername auswählen" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="vorname2" class="form-label">Vorname</label>
+          <input type="text"  id="vorname2"placeholder="Max"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="name2" class="form-label">Name</label>
+          <input type="text"  id="name2"placeholder="Muster"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" id="email"placeholder="example@bsp.ch"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="telefonnummer2" class="form-label">Telefonnummer</label>
+          <input type="number"  id="telefonnummer2" placeholder="+41 78 000 00 00"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="erwachsen2" class="form-label">Anzahl Erwachsene</label>
+          <input type="text" id="erwachsen2" placeholder="2"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="kinder" class="form-label">Anzahl Kinder</label>
+          <input type="text" id="kinder" placeholder="2"/>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="date2" class="form-label">Datum</label>
+          <input type="date"  id="date2" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password" class="form-label">Passwort</label>
+          <input type="password" class="form-control" id="password"/>
+          <small>Error message</small>
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+  </body>
+</html>
